@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+}
+.overlay {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.overlay h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+#pokeImg{
+	height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    background-image:url('../PGO-mapscan-opt/res/icons/pokeball.png');
+    background-size:cover;
+}
+#pokeInfo{
+	    width: 145px
+}
+#pokemonPicker{
+	    width: 145px;
+	    margin-top: 15px;
+}
+
+.custom{ /*popup*/
+    z-index:9999;
+}
+.hidePopUp {
+    display:none;
+    position:absolute;
+    z-index:9999;
+    max-width:200px;
+    color:#333;
+}
+
+.info-icon{
+/*    width: 13px;
+    height: 13px;*/
+    background-image: url('../icons/info12.png');
+    background-size: contain;
+    /*background-size: 12px 12px;*/
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    cursor:pointer;
+}
+.info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background-color: white;
+            /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            border-radius: 5px;
+            pointer-events: none;
+        }

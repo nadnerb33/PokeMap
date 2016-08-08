@@ -214,7 +214,7 @@ function getSpawnLocationsBoundsData(bounds){
 
 
 $('#pokemonPicker').change(function(){
-	$("#pokeImg").css("background-image", "url('b-PGO-mapscan-opt/res/icons/"+$(this).children(":selected").attr("id")+".png')");  
+	$("#pokeImg").css("background-image", "url('icons/"+$(this).children(":selected").attr("id")+".png')");  
 	heatData = [];
 	selectedPokemonLayer.clearLayers();
 	selectedPokemonGradLayer.clearLayers();

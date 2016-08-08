@@ -12,7 +12,7 @@
 		<select id="pokemonPicker" class="form-control">
 		<option id="0" value="null">Pick a Pokemon </option>';
 		<?php
-			$pokemonList = json_decode(file_get_contents("b-PGO-mapscan-opt/res/english.json"));
+			$pokemonList = json_decode(file_get_contents("pokemon.json"));
 			$i=1;
 			foreach(array_slice( $pokemonList, 1, 151, true) as $pokemon){
 			    print '<option id="'.$i.'" value="'.$pokemon.'">'.$pokemon.'</option>';

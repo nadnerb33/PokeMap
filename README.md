@@ -22,7 +22,7 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Screens
 
-![PokeMap](https://raw.githubusercontent.com/nadnerb33/PokeMap/blob/master/Images/Screen.jpg)
+![PokeMap](https://raw.githubusercontent.com/nadnerb33/PokeMap/master/Images/Screen.jpg)
 
 
 

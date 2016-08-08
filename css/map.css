@@ -23,7 +23,7 @@ html, body, #map {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    background-image:url('../PGO-mapscan-opt/res/icons/pokeball.png');
+    background-image:url('../icons/pokeball.png');
     background-size:cover;
 }
 #pokeInfo{

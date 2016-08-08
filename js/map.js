@@ -1,4 +1,4 @@
-mapboxToken = 'pk.eyJ1IjoibmFkbmVyYiIsImEiOiJOSFJxUmJZIn0.cl9khCzLqJK7UULvu08_Xg';
+mapboxToken = ''; //enter your mapbox token here to get the pokemon style basemap
 
 var map = L.map('map',{zoomControl:false}).setView([51.3835,-2.3646], 13);
 L.control.zoom({position: 'topright'}).addTo(map);

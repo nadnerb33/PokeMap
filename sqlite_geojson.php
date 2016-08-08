@@ -13,12 +13,13 @@
  * @param       string      $offset         Offset used in conjunction with limit *OPTIONAL*
  * @return      string                  resulting geojson string
  */
-# Include required geoPHP library and define wkb_to_json function
+
+/* Include required geoPHP library and define wkb_to_json function
 include_once('../geoPHP/geoPHP.inc');
 function wkb_to_json($wkb) {
   $geom = geoPHP::load($wkb,'wkb');
   return $geom->out('json');
-}
+}*/
 function escapeJsonString($value) { # list from www.json.org: (\b backspace, \f formfeed)
   $escapers = array("\\", "/", "\"", "\n", "\r", "\t", "\x08", "\x0c");
   $replacements = array("\\\\", "\\/", "\\\"", "\\n", "\\r", "\\t", "\\f", "\\b");
